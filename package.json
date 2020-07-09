@@ -1,0 +1,30 @@
+{
+  "displayName": "Homebridge HTTP MQTT Motion",
+  "name": "homebridge-http-mqtt-motion",
+  "version": "0.1.0",
+  "description": "Allows HTTP GET requests to Trigger homebridge-camera-ffmpeg Motion Alerts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sunoo/homebridge-http-mqtt-motion.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "http",
+    "mqtt",
+    "camera",
+    "motion"
+  ],
+  "author": "David Maher",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Sunoo/homebridge-http-mqtt-motion/issues"
+  },
+  "homepage": "https://github.com/Sunoo/homebridge-http-mqtt-motion#readme",
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.3.0"
+  },
+  "dependencies": {
+    "mqtt": ">=4.1.0"
+  }
+}

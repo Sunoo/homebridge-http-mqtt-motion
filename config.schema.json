@@ -1,0 +1,43 @@
+{
+    "pluginAlias": "httpMqttMotion",
+    "pluginType": "platform",
+    "singular": true,
+    "headerDisplay": "Allows HTTP GET requests to Trigger homebridge-camera-ffmpeg Motion Alerts",
+    "footerDisplay": "Raise [Issues](https://github.com/Sunoo/homebridge-http-mqtt-motion/issues) or submit [Pull Requests](https://github.com/Sunoo/homebridge-http-mqtt-motion/pulls) on [Project Page](https://github.com/Sunoo/homebridge-http-mqtt-motion).",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true,
+                "default": "HTTP MQTT Motion",
+                "description": "A unique name for the accessory."
+            },
+            "mqtt_server": {
+                "title": "MQTT Server",
+                "type": "string",
+                "placeholder": "127.0.0.1",
+                "description": "The address of your MQTT server."
+            },
+            "mqtt_port": {
+                "title": "MQTT Port",
+                "type": "integer",
+                "placeholder": "1883",
+                "description": "The port of your MQTT server."
+            },
+			"mqtt_topic": {
+				"title": "MQTT Topic",
+				"type": "string",
+				"default": "homebridge/motion",
+				"description": "MQTT topic that homebridge-camera-ffmpeg is subscribed to."
+			},
+            "http_port": {
+                "title": "HTTP Port",
+                "type": "integer",
+                "placeholder": "8080",
+                "description": "The port to listen to HTTP requests on."
+            }
+        }
+    }
+}
