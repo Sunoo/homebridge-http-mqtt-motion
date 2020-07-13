@@ -1,6 +1,8 @@
 # homebridge-http-mqtt-motion
 [![npm](https://img.shields.io/npm/v/homebridge-http-mqtt-motion) ![npm](https://img.shields.io/npm/dt/homebridge-http-mqtt-motion)](https://www.npmjs.com/package/homebridge-http-mqtt-motion)
 
+# As of version 2.3.0, homebridge-camera-ffmpeg natively supports HTTP-based automation, so this is no longer needed.
+
 This plugin allows HTTP requests to trigger [homebridge-camera-ffmpeg](https://github.com/homebridge-plugins/homebridge-camera-ffmpeg) motion alerts.
 
 Note that this plugin itself does not expose any devices to HomeKit.
